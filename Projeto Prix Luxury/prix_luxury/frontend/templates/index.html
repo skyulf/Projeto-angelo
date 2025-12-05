@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Prix Luxury - Loja Masculina</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Prix Luxury</h1>
+        <h2>Selecione sua camisa:</h2>
+
+        <form action="/pedido" method="POST">
+
+            <div class="grid">
+                <label>
+                    <img src="/static/img/camisa1.png">
+                    <input type="radio" name="produto" value="Camisa Astronomical - 65.99" required>
+                    <p>Camisa Astronomical – R$ 65,99</p>
+                </label>
+
+                <label>
+                    <img src="/static/img/bg_roxo.png">
+                    <input type="radio" name="produto" value="Camisa Roxa - 79.99">
+                    <p>Camisa Roxa – R$ 79,99</p>
+                </label>
+
+                <label>
+                    <img src="/static/img/camisa2.png">
+                    <input type="radio" name="produto" value="Camisa Sem Manga - 110.00">
+                    <p>Camisa Sem Manga – R$ 110,00</p>
+                </label>
+
+                <label>
+                    <img src="/static/img/camisa3.png">
+                    <input type="radio" name="produto" value="Camisa Casual - 75.00">
+                    <p>Camisa Casual – R$ 75,00</p>
+                </label>
+            </div>
+
+            <input type="text" name="endereco" placeholder="Seu endereço" required>
+            <button type="submit">Finalizar Pedido</button>
+        </form>
+    </div>
+</body>
+</html>

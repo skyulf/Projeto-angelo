@@ -1,0 +1,38 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('/static/img/bg_roxo.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.65);
+    width: 70%;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+button {
+    background: gold;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+}
